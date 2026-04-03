@@ -779,10 +779,10 @@ section h2 {
 table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
+    background: var(--surface-strong);
     border-radius: 8px;
     overflow: hidden;
-    color: var(--dark-bg);
+    color: var(--text-main);
 }
 
 table th {
@@ -796,6 +796,7 @@ table th {
 table td {
     padding: 12px 15px;
     border-bottom: 1px solid #eee;
+    color: var(--text-main);
 }
 
 table tr:hover {
