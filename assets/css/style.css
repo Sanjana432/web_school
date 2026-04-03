@@ -1200,12 +1200,26 @@ table th {
     color: #1f2a44;
     border-color: var(--edge);
 }
-
+[data-theme='light'] .btn-secondary:hover {
+    background: #e9f0ff;
+    color: #16213a;
+    border-color: #b9cdfa;
+}
 [data-theme='dark'] .btn-secondary {
     background: #273453;
     color: #f3f7ff;
 }
 
+
+[data-theme='light'] .btn-outline {
+    color: #3654a3;
+    border-color: #9fb8f5;
+}
+
+[data-theme='light'] .btn-outline:hover {
+    background: #dce8ff;
+    color: #182746;
+}
 [data-theme='light'] .footer,
 [data-theme='light'] .navbar,
 [data-theme='light'] .sidebar {
